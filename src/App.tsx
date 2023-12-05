@@ -1,18 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
-import BlueButton from './BlueButton';
-import RedButton from './RedButton';
-import YellowButton from './YellowButton';
-
+import Button from './Button';
 
 const App = () => (
   <>
     <h2>Buttons</h2>
-    <BlueButton>En blå knapp</BlueButton>
-    <RedButton>En röd knapp</RedButton>
-    <YellowButton>En gul knapp</YellowButton>
+    <Button color="blue">En blå knapp</Button>
+    <Button color="red">En röd knapp</Button>
+    <Button color="yellow">En gul knapp</Button>
   </>
 )
 
